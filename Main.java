@@ -18,6 +18,9 @@ public class Main {
         System.out.print("Enter Department: ");
         String dept = sc.nextLine();
 
+        System.out.print("Enter Specialization: ");
+        String sep = sc.nextLine();
+
         System.out.print("Enter Marks: ");
         int marks = sc.nextInt();
 
@@ -27,6 +30,7 @@ public class Main {
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
         System.out.println("Department: " + dept);
+        System.out.println("Specialization: " + sep);
         System.out.println("Marks: " + marks);
     }
 }
